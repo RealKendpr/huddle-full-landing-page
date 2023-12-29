@@ -490,9 +490,6 @@ footer p {
     padding: 0.62rem 1.8rem;
     font-size: 1rem;
   }
-  #socials {
-    grid-area: social;
-  }
   #socials svg {
     width: 32px;
     height: 32px;
@@ -528,6 +525,9 @@ footer p {
   }
   footer label {
     max-width: 42ch;
+  }
+  #socials {
+    grid-area: social;
   }
 }
 @media (width >= 900px) {
