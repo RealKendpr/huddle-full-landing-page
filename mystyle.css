@@ -373,7 +373,7 @@ footer p {
 
 @media (width >= 720px) {
   #nav {
-    margin: 77px 5% 90px;
+    margin: 77px 5% 88px;
   }
   #top-logo {
     height: 40px;
@@ -477,6 +477,28 @@ footer p {
     padding: 1.12rem 4.5rem;
     font-size: 1.3rem;
   }
+
+  #about img {
+    height: 39px;
+    margin-bottom: 34px;
+  }
+  #about p {
+    max-width: 40ch;
+  }
+
+  footer button {
+    padding: 0.62rem 1.8rem;
+    font-size: 1rem;
+  }
+  #socials {
+    grid-area: social;
+  }
+  #socials svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (width >= 800px) {
   footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -496,12 +518,9 @@ footer p {
   footer section:last-of-type {
     grid-area: about;
   }
-  #about img {
-    height: 39px;
-    margin-bottom: 34px;
-  }
-  #about p {
-    max-width: 40ch;
+  footer input {
+    width: 238px;
+    padding: 0.62rem;
   }
   footer form > div {
     flex-direction: row;
@@ -509,21 +528,6 @@ footer p {
   }
   footer label {
     max-width: 42ch;
-  }
-  footer input {
-    width: 238px;
-    padding: 0.62rem;
-  }
-  footer button {
-    padding: 0.62rem 1.8rem;
-    font-size: 1rem;
-  }
-  #socials {
-    grid-area: social;
-  }
-  #socials svg {
-    width: 32px;
-    height: 32px;
   }
 }
 @media (width >= 900px) {
