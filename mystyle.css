@@ -79,12 +79,14 @@ h1 {
     background: var(--active-clr);
   }
 }
-#mockup-wrapper {
+/* #mockup-wrapper {
   display: grid;
   place-items: center;
-}
+} */
 #screen-mockup {
   width: 80%;
+  margin-inline: auto;
+  display: block;
 }
 #stats-wrapper {
   margin-top: 123px;
@@ -384,10 +386,10 @@ footer p {
   }
   #hero a {
     padding: 1.12rem 4.5rem;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
   #screen-mockup {
-    width: 70%;
+    width: 72%;
   }
   #stats-wrapper {
     width: 80%;
@@ -523,6 +525,9 @@ footer p {
   }
   #hero p {
     margin: 32px auto 50px auto;
+  }
+  #stats-wrapper {
+    margin-top: 132px;
   }
   #stats-wrapper h2 {
     font-size: 5.9rem;
