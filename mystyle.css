@@ -514,7 +514,7 @@ footer p {
     height: 32px;
   }
 }
-@media (width >= 1024px) {
+@media (width >= 900px) {
   #nav {
     margin-bottom: 245px;
   }
